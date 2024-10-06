@@ -145,7 +145,7 @@ footer {
     text-align: left;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
     nav .navbar-nav {
         flex-direction: column; /* Cambia a columna en pantallas pequeñas */
         text-align: center; /* Centra el texto */
