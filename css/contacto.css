@@ -35,16 +35,30 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+nav .nav-link {
+    font-size: 20px; 
+    font-weight: bold; 
+    
+}
+.main-image {
+    width: 50%; 
+    height: auto; 
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 main {
     padding: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
-nav .nav-link {
-    font-size: 20px; 
-    font-weight: bold; 
-    
+footer {
+    background-color: rgb(3, 3, 3);
+    color: #fffdfd;
+    text-align: center;
+    padding: 20px 0; 
 }
 
 #footer-text {
