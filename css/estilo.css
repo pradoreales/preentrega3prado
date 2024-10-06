@@ -139,3 +139,33 @@ footer {
     margin-top: 20px;
     text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: block;  
+        text-align: center;  
+        padding: 0;  
+    }
+
+    nav a {
+        font-size: 18px; 
+        padding: 10px; 
+        display: block; 
+    }
+
+    header {
+        height: 250px; 
+    }
+
+    .grid-container {
+        display: block; 
+    }
+
+    .main-image {
+        width: 80%; 
+    }
+
+    .grid-item {
+        margin-bottom: 20px; 
+    }
+}
