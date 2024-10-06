@@ -113,3 +113,19 @@ footer {
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media (max-width: 600px) {
+    nav .navbar-nav {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        text-align: center; /* Centra el texto */
+    }
+    
+    .nav-item {
+        margin: 10px 0; /* Espaciado vertical entre elementos */
+    }
+
+    .main-image {
+        width: 100%; /* Ajusta la imagen a 100% en pantallas pequeñas */
+        height: auto; 
+    }
+}

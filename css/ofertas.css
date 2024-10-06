@@ -144,3 +144,19 @@ footer {
     margin-top: 20px;
     text-align: left;
 }
+
+@media (max-width: 600px) {
+    nav .navbar-nav {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        text-align: center; /* Centra el texto */
+    }
+    
+    .nav-item {
+        margin: 10px 0; /* Espaciado vertical entre elementos */
+    }
+
+    .main-image {
+        width: 100%; /* Ajusta la imagen a 100% en pantallas pequeñas */
+        height: auto; 
+    }
+}

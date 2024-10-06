@@ -31,8 +31,20 @@ nav ul {
 nav a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .nav-link {
+    font-size: 20px; 
+    font-weight: bold; 
+    
+}
+.main-image {
+    width: 50%; 
+    height: auto; 
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 main {
@@ -40,12 +52,6 @@ main {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
-nav .nav-link {
-    font-size: 20px; 
-    font-weight: bold; 
-}
-
 
 
 footer {
@@ -82,4 +88,21 @@ footer {
     margin-top: 20px; 
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Media queries para la adaptación del nav en pantallas pequeñas */
+@media (max-width: 600px) {
+    nav .navbar-nav {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        text-align: center; /* Centra el texto */
+    }
+    
+    .nav-item {
+        margin: 10px 0; /* Espaciado vertical entre elementos */
+    }
+
+    .main-image {
+        width: 100%; /* Ajusta la imagen a 100% en pantallas pequeñas */
+        height: auto; 
+    }
 }
