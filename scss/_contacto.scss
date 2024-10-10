@@ -35,12 +35,6 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-main {
-    padding: 20px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 nav .nav-link {
     font-size: 20px; 
     font-weight: bold; 
@@ -58,6 +52,7 @@ main {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
 
 footer {
     background-color: rgb(3, 3, 3);
@@ -81,24 +76,24 @@ footer {
     text-decoration: none; 
     margin: 0 10px; 
     font-size: 20px; 
-    transition: color 0.3s, transform 0.3s ease;
+    transition: color 0.3s; 
+    transition: transform 0.3s ease, color 0.5s ease;
 }
-
 #social-icons a:hover {
-    color: white; 
+    color: white; /* Color que quieres cuando el mouse estÃ¡ sobre el icono */
     transform: translateY(-5px); /* Mover hacia arriba 5px */
 }
 
-#main-footer3 { 
+#main-footer3 {
     margin-top: 20px; 
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Media queries para la adaptación del nav en pantallas pequeñas */
+/* Media queries para la adaptaciÃ³n del nav en pantallas pequeÃ±as */
 @media (max-width: 992px) {
     nav .navbar-nav {
-        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        flex-direction: column; /* Cambia a columna en pantallas pequeÃ±as */
         text-align: center; /* Centra el texto */
     }
     
@@ -107,7 +102,7 @@ footer {
     }
 
     .main-image {
-        width: 100%; /* Ajusta la imagen a 100% en pantallas pequeñas */
+        width: 100%; /* Ajusta la imagen a 100% en pantallas pequeÃ±as */
         height: auto; 
     }
 }
