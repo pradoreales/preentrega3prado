@@ -156,7 +156,10 @@ footer {
     color: #fffdfd;
     padding: 20px 0;
 }
-
+img {
+    width: 100%; /* O un ancho fijo como 300px */
+    height: auto; /* Mantiene la proporción */
+}
 #footer-text {
     margin-bottom: 10px;
 }
